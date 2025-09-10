@@ -9,7 +9,7 @@ function App() {
 
   // Update URL when page changes
   useEffect(() => {
-    const path = currentPage === 'home' ? '/' : `/${currentPage}`
+    const path = currentPage === 'home' ? './' : `./${currentPage}`
     window.history.pushState({}, '', path)
   }, [currentPage])
 
@@ -17,13 +17,13 @@ function App() {
   useEffect(() => {
     const handlePopState = () => {
       const path = window.location.pathname
-      if (path === '/students') {
+      if (path.endsWith('/students') || path.endsWith('./students')) {
         setCurrentPage('students')
-      } else if (path === '/parents') {
+      } else if (path.endsWith('/parents') || path.endsWith('./parents')) {
         setCurrentPage('parents')
-      } else if (path === '/schools') {
+      } else if (path.endsWith('/schools') || path.endsWith('./schools')) {
         setCurrentPage('schools')
-      } else if (path === '/sponsors') {
+      } else if (path.endsWith('/sponsors') || path.endsWith('./sponsors')) {
         setCurrentPage('sponsors')
       } else {
         setCurrentPage('home')
