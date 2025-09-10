@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center group">
               <div className="relative">
-                <img src="/images/RFE-logo-black-by-cfc.svg" alt="RFE Logo" className="h-10 w-auto filter invert transition-transform duration-300 group-hover:scale-110" />
+                <img src="images/RFE-logo-black-by-cfc.svg" alt="RFE Logo" className="h-10 w-auto filter invert transition-transform duration-300 group-hover:scale-110" />
                 <div className="absolute -inset-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm"></div>
               </div>
             </div>

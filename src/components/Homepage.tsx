@@ -165,7 +165,7 @@ const Homepage = () => {
               <FloatingElement>
                 <div className="relative z-10 group">
                   <img 
-                    src="/images/iPhone-15-Pro-Black-Titanium-Mockup-Portrait.svg" 
+                    src="images/iPhone-15-Pro-Black-Titanium-Mockup-Portrait.svg" 
                     alt="RFE Mobile App" 
                     className="w-full max-w-md mx-auto transform transition duration-500 group-hover:scale-110 group-hover:rotate-2"
                   />
@@ -412,7 +412,7 @@ const Homepage = () => {
                   </div>
                 </div>
                 <FloatingElement delay={1}>
-                  <img src="/images/trophy.png" alt="Trophy" className="w-28 h-28 mx-auto opacity-90 group-hover:scale-110 transition-transform duration-500" />
+                  <img src="images/trophy.png" alt="Trophy" className="w-28 h-28 mx-auto opacity-90 group-hover:scale-110 transition-transform duration-500" />
                 </FloatingElement>
               </div>
             </Card>
@@ -447,7 +447,7 @@ const Homepage = () => {
                   </div>
                 </div>
                 <FloatingElement delay={1.5}>
-                  <img src="/images/family-insurance.png" alt="Family" className="w-28 h-28 mx-auto opacity-90 group-hover:scale-110 transition-transform duration-500" />
+                  <img src="images/family-insurance.png" alt="Family" className="w-28 h-28 mx-auto opacity-90 group-hover:scale-110 transition-transform duration-500" />
                 </FloatingElement>
               </div>
             </Card>
@@ -482,7 +482,7 @@ const Homepage = () => {
                   </div>
                 </div>
                 <FloatingElement delay={2}>
-                  <img src="/images/time-planning-1.png" alt="Planning" className="w-28 h-28 mx-auto opacity-90 group-hover:scale-110 transition-transform duration-500" />
+                  <img src="images/time-planning-1.png" alt="Planning" className="w-28 h-28 mx-auto opacity-90 group-hover:scale-110 transition-transform duration-500" />
                 </FloatingElement>
               </div>
             </Card>
@@ -570,12 +570,12 @@ const Homepage = () => {
             <div className="relative">
               <FloatingElement>
                 <div className="relative group">
-                  <img src="/images/blockchain-1.png" alt="Blockchain Technology" className="w-full max-w-lg mx-auto transition-transform duration-500 group-hover:scale-105" />
+                  <img src="images/blockchain-1.png" alt="Blockchain Technology" className="w-full max-w-lg mx-auto transition-transform duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-purple-500/20 to-pink-500/20 rounded-3xl blur-2xl opacity-60 animate-pulse"></div>
                 </div>
               </FloatingElement>
               <FloatingElement delay={1}>
-                <img src="/images/technology.png" alt="Technology" className="absolute -bottom-12 -right-12 w-40 h-40 opacity-80 animate-float" />
+                <img src="images/technology.png" alt="Technology" className="absolute -bottom-12 -right-12 w-40 h-40 opacity-80 animate-float" />
               </FloatingElement>
               <div className="absolute top-1/4 -left-8 w-6 h-6 bg-blue-400 rounded-full animate-ping"></div>
               <div className="absolute bottom-1/3 -right-4 w-4 h-4 bg-purple-400 rounded-full animate-bounce" style={{ animationDelay: '1s' }}></div>

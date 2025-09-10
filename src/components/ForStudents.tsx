@@ -55,7 +55,7 @@ const ForStudents = () => {
             {/* Children running positioned at bottom of right column */}
             <div className="relative flex items-end justify-center lg:justify-end h-64 lg:h-80">
               <img 
-                src="/images/children-running-transparent-bg.png" 
+                src="images/children-running-transparent-bg.png" 
                 alt="Children Running" 
                 className="h-full w-auto object-bottom"
               />
@@ -323,13 +323,13 @@ const ForStudents = () => {
               </div>
             </div>
             <div className="text-center">
-              <img src="/images/app-rewards-cards.png" alt="Rewards Cards" className="w-full max-w-md mx-auto" />
+              <img src="images/app-rewards-cards.png" alt="Rewards Cards" className="w-full max-w-md mx-auto" />
             </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 text-center">
-              <img src="/images/blockchain-1.png" alt="DocuLocker" className="w-full max-w-md mx-auto" />
+              <img src="images/blockchain-1.png" alt="DocuLocker" className="w-full max-w-md mx-auto" />
             </div>
             <div className="order-1 md:order-2">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
