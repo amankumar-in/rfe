@@ -7,7 +7,6 @@ import {
   Shield, 
   Gift,
   ChevronRight,
-  BookOpen,
   Award,
   Smartphone,
   Sparkles,

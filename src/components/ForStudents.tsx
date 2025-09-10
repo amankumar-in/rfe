@@ -3,15 +3,12 @@ import {
   Star, 
   Shield, 
   Gift,
-  ChevronRight,
   BookOpen,
-  Award,
   Smartphone,
   Trophy,
   Badge,
   CheckCircle,
   QrCode,
-  FileText,
   GraduationCap,
   Play,
   ArrowDown,
@@ -19,7 +16,6 @@ import {
   Lock,
   Heart
 } from 'lucide-react'
-import { cn } from '@/lib/utils'
 
 const ForStudents = () => {
   return (
