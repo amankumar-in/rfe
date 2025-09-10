@@ -9,16 +9,14 @@ function App() {
 
   // Update URL when page changes
   useEffect(() => {
-    const basePath = import.meta.env.PROD ? '/rfe' : ''
-    const path = currentPage === 'home' ? `${basePath}/` : `${basePath}/${currentPage}`
+    const path = currentPage === 'home' ? '/' : `/${currentPage}`
     window.history.pushState({}, '', path)
   }, [currentPage])
 
   // Handle browser back/forward
   useEffect(() => {
     const handlePopState = () => {
-      const basePath = import.meta.env.PROD ? '/rfe' : ''
-      const path = window.location.pathname.replace(basePath, '') || '/'
+      const path = window.location.pathname
       if (path === '/students') {
         setCurrentPage('students')
       } else if (path === '/parents') {
